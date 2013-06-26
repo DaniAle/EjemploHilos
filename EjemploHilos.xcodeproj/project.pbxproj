@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930D91F4177B6F3500248785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D91F3177B6F3500248785 /* UIKit.framework */; };
+		930D91F6177B6F3500248785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D91F5177B6F3500248785 /* Foundation.framework */; };
+		930D91F8177B6F3500248785 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D91F7177B6F3500248785 /* CoreGraphics.framework */; };
+		930D91FE177B6F3500248785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930D91FC177B6F3500248785 /* InfoPlist.strings */; };
+		930D9200177B6F3500248785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 930D91FF177B6F3500248785 /* main.m */; };
+		930D9204177B6F3500248785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930D9203177B6F3500248785 /* AppDelegate.m */; };
+		930D9206177B6F3500248785 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 930D9205177B6F3500248785 /* Default.png */; };
+		930D9208177B6F3500248785 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 930D9207177B6F3500248785 /* Default@2x.png */; };
+		930D920A177B6F3500248785 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 930D9209177B6F3500248785 /* Default-568h@2x.png */; };
+		930D920D177B6F3500248785 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930D920B177B6F3500248785 /* MainStoryboard.storyboard */; };
+		930D9210177B6F3500248785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930D920F177B6F3500248785 /* ViewController.m */; };
+		930D9218177B6F3600248785 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D9217177B6F3600248785 /* SenTestingKit.framework */; };
+		930D9219177B6F3600248785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D91F3177B6F3500248785 /* UIKit.framework */; };
+		930D921A177B6F3600248785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D91F5177B6F3500248785 /* Foundation.framework */; };
+		930D9222177B6F3600248785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930D9220177B6F3600248785 /* InfoPlist.strings */; };
+		930D9225177B6F3600248785 /* EjemploHilosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930D9224177B6F3600248785 /* EjemploHilosTests.m */; };
+		930D922F177B70FB00248785 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 930D922E177B70FB00248785 /* fondo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		930D921B177B6F3600248785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930D91E6177B6F3500248785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930D91EE177B6F3500248785;
+			remoteInfo = EjemploHilos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930D91EF177B6F3500248785 /* EjemploHilos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploHilos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930D91F3177B6F3500248785 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		930D91F5177B6F3500248785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		930D91F7177B6F3500248785 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		930D91FB177B6F3500248785 /* EjemploHilos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploHilos-Info.plist"; sourceTree = "<group>"; };
+		930D91FD177B6F3500248785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		930D91FF177B6F3500248785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		930D9201177B6F3500248785 /* EjemploHilos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EjemploHilos-Prefix.pch"; sourceTree = "<group>"; };
+		930D9202177B6F3500248785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		930D9203177B6F3500248785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		930D9205177B6F3500248785 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		930D9207177B6F3500248785 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		930D9209177B6F3500248785 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		930D920C177B6F3500248785 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		930D920E177B6F3500248785 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		930D920F177B6F3500248785 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		930D9216177B6F3600248785 /* EjemploHilosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploHilosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930D9217177B6F3600248785 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		930D921F177B6F3600248785 /* EjemploHilosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploHilosTests-Info.plist"; sourceTree = "<group>"; };
+		930D9221177B6F3600248785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		930D9223177B6F3600248785 /* EjemploHilosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EjemploHilosTests.h; sourceTree = "<group>"; };
+		930D9224177B6F3600248785 /* EjemploHilosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploHilosTests.m; sourceTree = "<group>"; };
+		930D922E177B70FB00248785 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		930D91EC177B6F3500248785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930D91F4177B6F3500248785 /* UIKit.framework in Frameworks */,
+				930D91F6177B6F3500248785 /* Foundation.framework in Frameworks */,
+				930D91F8177B6F3500248785 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930D9212177B6F3600248785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930D9218177B6F3600248785 /* SenTestingKit.framework in Frameworks */,
+				930D9219177B6F3600248785 /* UIKit.framework in Frameworks */,
+				930D921A177B6F3600248785 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930D91E4177B6F3500248785 = {
+			isa = PBXGroup;
+			children = (
+				930D91F9177B6F3500248785 /* EjemploHilos */,
+				930D921D177B6F3600248785 /* EjemploHilosTests */,
+				930D91F2177B6F3500248785 /* Frameworks */,
+				930D91F0177B6F3500248785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		930D91F0177B6F3500248785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				930D91EF177B6F3500248785 /* EjemploHilos.app */,
+				930D9216177B6F3600248785 /* EjemploHilosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		930D91F2177B6F3500248785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				930D91F3177B6F3500248785 /* UIKit.framework */,
+				930D91F5177B6F3500248785 /* Foundation.framework */,
+				930D91F7177B6F3500248785 /* CoreGraphics.framework */,
+				930D9217177B6F3600248785 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		930D91F9177B6F3500248785 /* EjemploHilos */ = {
+			isa = PBXGroup;
+			children = (
+				930D9202177B6F3500248785 /* AppDelegate.h */,
+				930D9203177B6F3500248785 /* AppDelegate.m */,
+				930D920B177B6F3500248785 /* MainStoryboard.storyboard */,
+				930D920E177B6F3500248785 /* ViewController.h */,
+				930D920F177B6F3500248785 /* ViewController.m */,
+				930D922E177B70FB00248785 /* fondo.png */,
+				930D91FA177B6F3500248785 /* Supporting Files */,
+			);
+			path = EjemploHilos;
+			sourceTree = "<group>";
+		};
+		930D91FA177B6F3500248785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930D91FB177B6F3500248785 /* EjemploHilos-Info.plist */,
+				930D91FC177B6F3500248785 /* InfoPlist.strings */,
+				930D91FF177B6F3500248785 /* main.m */,
+				930D9201177B6F3500248785 /* EjemploHilos-Prefix.pch */,
+				930D9205177B6F3500248785 /* Default.png */,
+				930D9207177B6F3500248785 /* Default@2x.png */,
+				930D9209177B6F3500248785 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		930D921D177B6F3600248785 /* EjemploHilosTests */ = {
+			isa = PBXGroup;
+			children = (
+				930D9223177B6F3600248785 /* EjemploHilosTests.h */,
+				930D9224177B6F3600248785 /* EjemploHilosTests.m */,
+				930D921E177B6F3600248785 /* Supporting Files */,
+			);
+			path = EjemploHilosTests;
+			sourceTree = "<group>";
+		};
+		930D921E177B6F3600248785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930D921F177B6F3600248785 /* EjemploHilosTests-Info.plist */,
+				930D9220177B6F3600248785 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		930D91EE177B6F3500248785 /* EjemploHilos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930D9228177B6F3600248785 /* Build configuration list for PBXNativeTarget "EjemploHilos" */;
+			buildPhases = (
+				930D91EB177B6F3500248785 /* Sources */,
+				930D91EC177B6F3500248785 /* Frameworks */,
+				930D91ED177B6F3500248785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjemploHilos;
+			productName = EjemploHilos;
+			productReference = 930D91EF177B6F3500248785 /* EjemploHilos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		930D9215177B6F3600248785 /* EjemploHilosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930D922B177B6F3600248785 /* Build configuration list for PBXNativeTarget "EjemploHilosTests" */;
+			buildPhases = (
+				930D9211177B6F3600248785 /* Sources */,
+				930D9212177B6F3600248785 /* Frameworks */,
+				930D9213177B6F3600248785 /* Resources */,
+				930D9214177B6F3600248785 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930D921C177B6F3600248785 /* PBXTargetDependency */,
+			);
+			name = EjemploHilosTests;
+			productName = EjemploHilosTests;
+			productReference = 930D9216177B6F3600248785 /* EjemploHilosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		930D91E6177B6F3500248785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daniela Velasquez";
+			};
+			buildConfigurationList = 930D91E9177B6F3500248785 /* Build configuration list for PBXProject "EjemploHilos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 930D91E4177B6F3500248785;
+			productRefGroup = 930D91F0177B6F3500248785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				930D91EE177B6F3500248785 /* EjemploHilos */,
+				930D9215177B6F3600248785 /* EjemploHilosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		930D91ED177B6F3500248785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930D91FE177B6F3500248785 /* InfoPlist.strings in Resources */,
+				930D9206177B6F3500248785 /* Default.png in Resources */,
+				930D9208177B6F3500248785 /* Default@2x.png in Resources */,
+				930D920A177B6F3500248785 /* Default-568h@2x.png in Resources */,
+				930D920D177B6F3500248785 /* MainStoryboard.storyboard in Resources */,
+				930D922F177B70FB00248785 /* fondo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930D9213177B6F3600248785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930D9222177B6F3600248785 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		930D9214177B6F3600248785 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		930D91EB177B6F3500248785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930D9200177B6F3500248785 /* main.m in Sources */,
+				930D9204177B6F3500248785 /* AppDelegate.m in Sources */,
+				930D9210177B6F3500248785 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930D9211177B6F3600248785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930D9225177B6F3600248785 /* EjemploHilosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		930D921C177B6F3600248785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930D91EE177B6F3500248785 /* EjemploHilos */;
+			targetProxy = 930D921B177B6F3600248785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		930D91FC177B6F3500248785 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930D91FD177B6F3500248785 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		930D920B177B6F3500248785 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930D920C177B6F3500248785 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		930D9220177B6F3600248785 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930D9221177B6F3600248785 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		930D9226177B6F3600248785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		930D9227177B6F3600248785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		930D9229177B6F3600248785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploHilos/EjemploHilos-Prefix.pch";
+				INFOPLIST_FILE = "EjemploHilos/EjemploHilos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		930D922A177B6F3600248785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploHilos/EjemploHilos-Prefix.pch";
+				INFOPLIST_FILE = "EjemploHilos/EjemploHilos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		930D922C177B6F3600248785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EjemploHilos.app/EjemploHilos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploHilos/EjemploHilos-Prefix.pch";
+				INFOPLIST_FILE = "EjemploHilosTests/EjemploHilosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		930D922D177B6F3600248785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EjemploHilos.app/EjemploHilos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploHilos/EjemploHilos-Prefix.pch";
+				INFOPLIST_FILE = "EjemploHilosTests/EjemploHilosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		930D91E9177B6F3500248785 /* Build configuration list for PBXProject "EjemploHilos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930D9226177B6F3600248785 /* Debug */,
+				930D9227177B6F3600248785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930D9228177B6F3600248785 /* Build configuration list for PBXNativeTarget "EjemploHilos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930D9229177B6F3600248785 /* Debug */,
+				930D922A177B6F3600248785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		930D922B177B6F3600248785 /* Build configuration list for PBXNativeTarget "EjemploHilosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930D922C177B6F3600248785 /* Debug */,
+				930D922D177B6F3600248785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 930D91E6177B6F3500248785 /* Project object */;
+}
